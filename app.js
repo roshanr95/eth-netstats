@@ -32,13 +32,13 @@ else
 var banned = require('./lib/utils/config').banned;
 
 // Init http server
-if( process.env.NODE_ENV !== 'production' )
-{
+//if( process.env.NODE_ENV !== 'production' )
+//{
 	var app = require('./lib/express');
 	server = http.createServer(app);
-}
-else
-	server = http.createServer();
+//}
+//else
+//	server = http.createServer();
 
 // Init socket vars
 var Primus = require('primus');
