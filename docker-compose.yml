@@ -1,0 +1,7 @@
+version: "3"
+services:
+  eth-netstats:
+    build: .
+    ports:
+    - "3000:3000"
+    image: registry.marlin.pro/eth-netstats:latest

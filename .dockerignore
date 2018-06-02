@@ -13,3 +13,7 @@ config/nodes.js
 ws_secret.json
 stats.json
 .git
+.gitignore
+.dockerignore
+Dockerfile*
+docker-compose.yml
