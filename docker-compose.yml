@@ -5,3 +5,5 @@ services:
     ports:
     - "3000:3000"
     image: registry.marlin.pro/eth-netstats:latest
+    environment:
+      WS_SECRET: ${netstats_secret}
